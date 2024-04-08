@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background: linear-gradient(
+    174deg,
+    rgba(99, 219, 209, 1) 0%,
+    rgba(75, 134, 228, 1) 100%
+  ); 
+}
+.todo-head ul li {
+  margin-top: 20px;
+}
+.todo-head {
+  background-color: white;
+  border-radius: 5px;
+  width: 30%;
+  text-align: start;
+  padding: 20px;
+}
+.todo-title{
+    width: 100%;
+    padding: 10px;
+}
+.todo-head form button {
+  background-color: #8e48e6;
+  color: white;
+  transition: 0.4s linear;
+  border-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+.todo-head form button:hover i{
+    color: black;
+    transition: 0.7s linear;
+
+}
+.todo-head form button i {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  color: white;
+}
+.todo-head form input {
+  padding: 7px;
+  border-radius: 5px;
+  border-color: #dee2e6;
+  width: 88%;
+}
+.todo-head form input:focus{
+    outline: none;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.todo-head .span {
+  display: none;
+
+}
+.todo-head .todo-item {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.todo-head .todo-item p span{
+    color: #dc3545;
+}
+.btn{
+    background-color: #8e48e6;
+    color: white;
+    transition: 0.4s linear;
+}
+.btn:hover{
+    color: black;
+    background-color: #8e48e6;
+    transition: 0.4s linear;
+}
+.todo-head ul{
+  padding: 0;
+}
+.todo-head ul li{
+    background-color:#e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    margin-top: 15px;
+ 
+}
+.todo-head ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-head ul li div .blue-btn {
+   border:1px solid #0d6efd;
+    color: #0d6efd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.todo-head ul li div .blue-btn:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+.todo-head ul li div .red-btn{
+    border:1px solid #dc3545;
+    color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.todo-head ul li div .red-btn:hover{
+background-color: #dc3545;
+color: white;
+}
+.todo-head ul li div .yellow-btn{
+    border-color: #ffc107;
+    color: #ffc107;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.todo-head ul li div .yellow-btn:hover{
+    background-color: #ffc107; 
+color: black;
+}
+.text-span-line{
+  text-decoration: line-through;
+}
